@@ -182,7 +182,7 @@ main a{
     font-size: 32px;
     font-weight: 900;
     text-align: center;
-    background-image: url("../images/step_bg.jpg");
+    background-image: url("images/step_bg.jpg");
     background-position: center;
     padding: 100px 0;
 }
