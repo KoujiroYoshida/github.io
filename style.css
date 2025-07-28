@@ -1,0 +1,188 @@
+*{
+    margin: 0;/**/
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main{
+    background-image: url("../images/fv_img.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 620px;
+}
+
+main div{
+    width: 1000px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+main h1{
+    color: #e74617;
+    font-size: 38px;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+main img{
+    margin-bottom:35px ;
+}
+
+main ul{
+    margin-bottom: 30px;
+}
+
+main ul li{
+    display: inline-block;
+    color: #e74617;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+main a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #21BB7A;
+    padding: 20px;
+    border-radius: 6px;
+    border-style: solid;
+}
+
+#phirosophy {
+    background-color: #fff7ef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.phirosophy_ct {
+    width: 880px;
+    margin: auto;
+}
+
+.phirosophy_title{
+    color: #e74616;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.phirosophy_tx{
+    color: #00202b;
+    font-size: 20px;
+    margin-bottom: 40px;
+    border-left: solid 1px #00202b;
+    padding-left: 15px;
+}
+
+.phirosophy_img{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tx_storong{
+    color: #e74617;
+    font-weight: 900;
+}
+
+#reason{
+    background-color: #f2f2f2;
+    padding: 60px 0;
+}
+
+.comoon_title_ct{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.common_title{
+    margin-bottom: 4px;
+}
+
+.common_read_title{
+    color: #e74617;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.reason_ct{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reason_box{
+    width: 32%;
+
+}
+
+.reason_box img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.reason_box h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.reason_box p{
+    font-size: 15px;
+}
+
+#step{
+    padding: 60px 0;
+}
+
+.step_ct{
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.step_box{
+    width: 48%;
+
+}
+
+.step_box img{
+    width: 100%;
+}
+
+.step_box .tx_step{
+    color: #e74617;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.step_box h5{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.step_box p{
+    font-size: 20px;
+}
+
+.closing_tx{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    background-image: url("../images/step_bg.jpg");
+    background-position: center;
+    padding: 100px 0;
+}
