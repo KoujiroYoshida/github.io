@@ -186,3 +186,37 @@ main a{
     background-position: center;
     padding: 100px 0;
 }
+
+/* ===== スマートフォン表示用の設定 (画面幅768px以下で適用) ===== */
+@media screen and (max-width: 768px) {
+
+    /* 横幅の自動調整 */
+    main div, .phirosophy_ct, .reason_ct, .step_ct {
+        width: 90%; /* 画面幅の90%のサイズにする */
+    }
+
+    /* 文字サイズの調整 */
+    body { font-size: 16px; }
+    main h1 { font-size: 24px; }
+    main ul li { font-size: 14px; }
+    .phirosophy_title { font-size: 22px; }
+    .phirosophy_tx { font-size: 16px; }
+    .common_read_title { font-size: 20px; }
+    .reason_box h4 { font-size: 18px; }
+    .step_box h5 { font-size: 20px; }
+    .closing_tx { font-size: 18px; padding: 40px 20px; }
+
+    /* 横並びのレイアウトを縦並びに変更 */
+    .reason_ct, .step_ct {
+        display: block;
+    }
+    .reason_box, .step_box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    main ul li {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
