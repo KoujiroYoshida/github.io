@@ -176,7 +176,17 @@ main a{
     font-size: 20px;
 }
 
-.closing_tx{
+.closing_tx {
+    color: #e74617;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    background-image: url("images/po-toforio.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 100px 20px;
+}
+/*.closing_tx{
     color: #e74617;
     font-size: 32px;
     font-weight: 900;
@@ -184,9 +194,21 @@ main a{
     background-image: url("images/po-toforio.jpg");
     background-position: center;
     padding: 100px 0;
-}
+}*/
 
-.closing a{
+
+.closing_btn {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #21BB7A;
+    padding: 20px 30px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size: 18px;
+}
+/*.closing a{
 	text-align: center;
     display: inline-block;
     text-decoration: none;
@@ -195,7 +217,7 @@ main a{
     padding: 20px;
     border-radius: 6px;
     border-style: solid;
-}
+}*/
 
 /* ===== スマートフォン表示用の設定 (画面幅768px以下で適用) ===== */
 @media screen and (max-width: 768px) {
