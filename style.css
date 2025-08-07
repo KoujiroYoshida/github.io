@@ -178,11 +178,11 @@ main a{
 }
 
 .closing_tx{
-    color: #fff;
+    color: #e74617;
     font-size: 32px;
     font-weight: 900;
     text-align: center;
-    background-image: url("images/step_bg.jpg");
+    background-image: url("images/po-toforio.jpg");
     background-position: center;
     padding: 100px 0;
 }
