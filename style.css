@@ -186,7 +186,8 @@ main a{
     padding: 100px 0;
 }
 
-a{
+.closing　a{
+	text-align: center;
     display: inline-block;
     text-decoration: none;
     color: #fff;
