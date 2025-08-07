@@ -186,6 +186,16 @@ main a{
     padding: 100px 0;
 }
 
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #21BB7A;
+    padding: 20px;
+    border-radius: 6px;
+    border-style: solid;
+}
+
 /* ===== スマートフォン表示用の設定 (画面幅768px以下で適用) ===== */
 @media screen and (max-width: 768px) {
 
